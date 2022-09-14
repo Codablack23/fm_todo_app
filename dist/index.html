@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+      </style>
+</head>
+<body class="" data-theme="light">
+    <header class="header" data-theme="light">
+        <header class="container title">
+            <h1>Todo</h1>
+            <button class="toggleTheme">
+                <img src="./images/icon-moon.svg" class="toggleThemeImage" alt="">
+            </button>
+        </header>
+    </header>
+    <main class="container main-component" data-theme="light">
+         <form action="" class="component add-todo-form " data-theme="light">
+            <div class="circle"></div>
+            <input type="text" name="todo" class="todo-content" placeholder="Create new todo">
+         </form>
+        <div class="todo-list-container component" data-theme="light">
+            <ul class="todo-list" id="todo-list">
+            </ul>
+         <footer class="footer component ">
+            <p class="total"><span class="total-text"></span> items left</p>
+            <div class="filters ">
+                <p class="all">All</p>
+                <p class="active">Active</p>
+                <p class="completed">Completed</p>
+            </div>
+            <p class="clear">Clear Completed</p>
+         </footer>
+      
+        </div>
+        <div class="filters-sm component ">
+            <p class="all">All</p>
+            <p class="active">Active</p>
+            <p class="completed">Completed</p>
+        </div>
+    </main>
+
+</body>
+<script src="./bundle.js" type="module"></script>
+</html>
+<!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Goodluck Edih</a>.
+    </div> -->
